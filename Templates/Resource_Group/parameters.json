@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "value": null
+        },
+        "vulnerabilityAssessments_Default_storageContainerPath_1": {
+            "value": null
+        },
+        "servers_olistserver_name": {
+            "value": null
+        },
+        "vaults_OlistKeyVault51_name": {
+            "value": null
+        },
+        "workspaces_olistsynapse_name": {
+            "value": null
+        },
+        "storageAccounts_adlsolist51_name": {
+            "value": null
+        },
+        "workspaces_DatabricksOlist_name": {
+            "value": null
+        }
+    }
+}
