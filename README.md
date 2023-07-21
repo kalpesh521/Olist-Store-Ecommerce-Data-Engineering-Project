@@ -3,8 +3,8 @@
 
 ---
  
-**Data Engineering Project** is an implementation of the data pipeline which consumes the latest news from RSS Feeds and makes them available for users via handy API.
-The pipeline infrastructure is built using popular, open-source projects.
+**Data Engineering Project** is an implementation of the data pipeline which consumes data from the on-premises Olist store and make it available to predict e-commerce revenue based on historical transaction data, utilized Power BI to create insightful revenue prediction dashboards, enabling data-driven decision-making for the e-commerce business.
+ 
 
 **Use Case** : E-Commerce Revenue Forecasting
 
@@ -15,7 +15,7 @@ The goal of the project is to predict e-commerce revenue based on historical tra
 **Dataset** : https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 <br>
 <br>
-<img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></img>
+<img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"><a href="https://medium.com/@kalpeshpawar522001/olist-e-commerce-store-big-data-driven-insights-azure-data-pipeline-for-e-commerce-revenue-8306177c193" >Article Link</a></img>
 <br>
 <br>
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"></img>
@@ -35,21 +35,24 @@ The goal of the project is to predict e-commerce revenue based on historical tra
 
 ## How it works
 
-#### Data Ingestion
+#### Data Sources :
+The data pipeline starts by ingesting data from the on-premises Olist store (SQL Server ,SSMS) , which may include data from various sources such as sales transactions, customer information, product details, and order history.
+
+#### Data Ingestion :
 - The skillfully architected and executed comprehensive data pipeline in Azure, adeptly designed to facilitate precise e-commerce revenue prediction from extensive historical transaction data,
 - seamlessly ingests vast amounts of information from the on-premises Olist store dataset and SQL Server into Azure Data Lake Storage using the formidable Azure Data Factory.
 
-#### Data Transformation 
+#### Data Transformation : 
 - Leveraging the immense capabilities of Azure Databricks, the pipeline conducts advanced data processing and intricate feature engineering, elevating data quality to unparalleled heights for impeccable predictive accuracy.
 
-#### Data Warehousing:
+#### Data Warehousing :
 - The discerningly curated analytical data finds its rightful place in Azure Synapse, where it is stored as a data warehouse, enabling efficient and scalable storage for further analysis and reporting.
 
-#### Dashboarding:
+#### Dashboarding :
 - The magic of Power BI brings the data to life through captivating and enlightening revenue prediction dashboards, empowering the e-commerce business with invaluable data-driven insights for astute and informed strategic decision-making. 
 - These interactive dashboards provide a visual representation of the predicted revenue trends, enabling stakeholders to monitor performance and identify growth opportunities easily.
 
-#### Data Governance and Security: 
+#### Data Governance and Security : 
 - Throughout the data pipeline, data governance and security measures are essential to ensure data quality, privacy, and compliance with regulations. This involves data access control, encryption, auditing, and data lineage tracking.
 
 ---
